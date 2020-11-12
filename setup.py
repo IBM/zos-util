@@ -15,7 +15,7 @@ def main():
     setup(name="zos_util",
           version="1.0.1",
           license="License :: OSI Approved :: Apache Software License",
-          description="This module provides a portable way of using z/OS utilities",
+          description="This module provides a Python interface into various z/OS utilities",
           author="IBM",
           ext_modules=[zos_util_ext]
           )
