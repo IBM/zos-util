@@ -10,8 +10,7 @@ import sysconfig
 
 def main():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    zos_util_path = os.path.join(dir_path, "zos_util.c")
-    zos_util_ext = Extension("zos_util", sources=[zos_util_path])
+    zos_util_ext = Extension("zos_util", sources=["zos_util.c"])
     setup(name="zos_util",
           version="1.0.1",
           license="License :: OSI Approved :: Apache Software License",
