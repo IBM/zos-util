@@ -2,7 +2,7 @@
 
 # Copyright © 2001-2020 Python Software Foundation; All Rights Reserved
 
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 import os
 import sysconfig
